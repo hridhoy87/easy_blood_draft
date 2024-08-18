@@ -1,0 +1,43 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"easy_blood"},
+{"type":"table","name":"bbdb","database":"easy_blood","data":
+[
+{"id":"1","name":"HUPBD","lat":"23.8293120000","long":"90.3693390000","plus_code":"R9H9+MP Dhaka","last_updated_at":"2024-08-12 00:57:10"},
+{"id":"2","name":"SBB Blood Bank","lat":"23.8292600000","long":"90.3635560000","plus_code":"R9H7+PC Dhaka","last_updated_at":"2024-08-13 10:07:44"},
+{"id":"3","name":"Dhaka Blood Bank","lat":"23.8103000000","long":"90.4125000000","plus_code":"7C2V+9X Dhaka, Bangladesh","last_updated_at":"2024-08-14 04:53:25"},
+{"id":"4","name":"BRAC Blood Bank","lat":"23.7806000000","long":"90.2792000000","plus_code":"7C2Q+5C Dhaka, Bangladesh","last_updated_at":"2024-08-14 04:53:25"},
+{"id":"5","name":"Bangladesh Red Crescent Society","lat":"23.7744000000","long":"90.3994000000","plus_code":"7C2V+7J Dhaka, Bangladesh","last_updated_at":"2024-08-14 04:53:25"},
+{"id":"6","name":"Dhaka Medical College Blood Bank","lat":"23.7488000000","long":"90.3994000000","plus_code":"7C2V+8F Dhaka, Bangladesh","last_updated_at":"2024-08-14 04:53:25"},
+{"id":"7","name":"United Hospital Blood Bank","lat":"23.7797000000","long":"90.4197000000","plus_code":"7C2V+9F Dhaka, Bangladesh","last_updated_at":"2024-08-14 04:53:25"}
+]
+}
+,{"type":"table","name":"price","database":"easy_blood","data":
+[
+{"id_price":"20001","bbname":"HUPBD","aPOS":"45","bPOS":"45","abPOS":"55","oPOS":"60","aNEG":"90","bNEG":"90","abNEG":"110","oNEG":"120","last_updated_at":"2024-08-12 01:07:29"},
+{"id_price":"20002","bbname":"SBB Blood Bank","aPOS":"450","bPOS":"250","abPOS":"350","oPOS":"150","aNEG":"700","bNEG":"600","abNEG":"560","oNEG":"800","last_updated_at":"2024-08-13 10:10:09"},
+{"id_price":"20003","bbname":"Dhaka Blood Bank","aPOS":"100","bPOS":"120","abPOS":"150","oPOS":"90","aNEG":"110","bNEG":"130","abNEG":"140","oNEG":"80","last_updated_at":"2024-08-14 04:55:12"},
+{"id_price":"20004","bbname":"BRAC Blood Bank","aPOS":"110","bPOS":"125","abPOS":"155","oPOS":"95","aNEG":"115","bNEG":"135","abNEG":"145","oNEG":"85","last_updated_at":"2024-08-14 04:55:12"},
+{"id_price":"20005","bbname":"Bangladesh Red Crescent Society","aPOS":"105","bPOS":"130","abPOS":"160","oPOS":"100","aNEG":"120","bNEG":"140","abNEG":"150","oNEG":"90","last_updated_at":"2024-08-14 04:55:12"},
+{"id_price":"20006","bbname":"Dhaka Medical College Blood Bank","aPOS":"95","bPOS":"115","abPOS":"145","oPOS":"85","aNEG":"105","bNEG":"125","abNEG":"135","oNEG":"75","last_updated_at":"2024-08-14 04:55:12"},
+{"id_price":"20007","bbname":"United Hospital Blood Bank","aPOS":"120","bPOS":"140","abPOS":"170","oPOS":"110","aNEG":"130","bNEG":"150","abNEG":"160","oNEG":"100","last_updated_at":"2024-08-14 04:55:12"}
+]
+}
+,{"type":"table","name":"state","database":"easy_blood","data":
+[
+{"id_state":"10001","bbname":"HUPBD","aPOS":"100","bPOS":"160","abPOS":"200","oPOS":"250","aNEG":"10","bNEG":"16","abNEG":"20","oNEG":"25","last_updated_at":"2024-08-12 01:06:41"},
+{"id_state":"10002","bbname":"SBB Blood Bank","aPOS":"250","bPOS":"150","abPOS":"23","oPOS":"235","aNEG":"12","bNEG":"45","abNEG":"14","oNEG":"7","last_updated_at":"2024-08-13 10:09:17"},
+{"id_state":"10003","bbname":"Dhaka Blood Bank","aPOS":"5","bPOS":"3","abPOS":"2","oPOS":"4","aNEG":"1","bNEG":"2","abNEG":"0","oNEG":"0","last_updated_at":"2024-08-14 04:54:27"},
+{"id_state":"10004","bbname":"BRAC Blood Bank","aPOS":"3","bPOS":"6","abPOS":"1","oPOS":"7","aNEG":"2","bNEG":"3","abNEG":"1","oNEG":"1","last_updated_at":"2024-08-14 04:54:27"},
+{"id_state":"10005","bbname":"Bangladesh Red Crescent Society","aPOS":"7","bPOS":"8","abPOS":"5","oPOS":"6","aNEG":"3","bNEG":"2","abNEG":"2","oNEG":"0","last_updated_at":"2024-08-14 04:54:27"},
+{"id_state":"10006","bbname":"Dhaka Medical College Blood Bank","aPOS":"4","bPOS":"2","abPOS":"1","oPOS":"3","aNEG":"0","bNEG":"1","abNEG":"1","oNEG":"0","last_updated_at":"2024-08-14 04:54:27"},
+{"id_state":"10007","bbname":"United Hospital Blood Bank","aPOS":"6","bPOS":"5","abPOS":"4","oPOS":"5","aNEG":"2","bNEG":"2","abNEG":"0","oNEG":"1","last_updated_at":"2024-08-14 04:54:27"}
+]
+}
+,{"type":"table","name":"test","database":"easy_blood","data":
+[
+{"id":"1","name":"Basundhara Blood Bank","blood_gp":"55","last_updated_at":"2024-08-11 20:12:16"},
+{"id":"2","name":"Shondhani","blood_gp":"1","last_updated_at":"2024-08-11 20:12:49"}
+]
+}
+]

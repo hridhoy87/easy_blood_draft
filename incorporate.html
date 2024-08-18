@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="header">
+        <img src="img.png" alt="Easy Blood Logo" class="img-logo">
+        <h1>Find Blood Banks</h1>
+    </div>
+    <form action="get_data.php" method="post">
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Select Blood Group</label>
+            <select class="form-control" id="exampleFormControlSelect1" name="bloodGP">
+                <option value="aPOS">A+ve</option>
+                <option value="bPOS">B+ve</option>
+                <option value="abPOS">AB+ve</option>
+                <option value="oPOS">O+ve</option>
+                <option value="aNEG">A-ve</option>
+                <option value="bNEG">B-ve</option>
+                <option value="abNEG">AB-ve</option>
+                <option value="oNEG">O-ve</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-custom" onclick="getLocation()">Search Blood</button>
+    </form>
+</div>
